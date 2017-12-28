@@ -1,0 +1,47 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/*Cambiar font*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fffef8;
+}
+
+table {
+    font-family: 'Poppins', sans-serif;
+}
+
+th {
+    background: #9da6ae;
+}
+
+/*ESTILO CUSTOM PARA EL ESTADO POSTERGADO*/
+.table-custom,
+.table-custom > th,
+.table-custom > td {
+    background-color: #ffa9e2;
+}
+
+.table-hover .table-custom:hover {
+    background-color: #ff84d0;
+}
+
+.table-hover .table-custom:hover > td,
+.table-hover .table-custom:hover > th {
+    background-color: #ff8bdd;
+}
+
+/*Color del boton submit*/
+#submit_btn {
+    padding: 8px 15px;
+    color: white;
+    background: #339;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/*Para que las alertas de bootstrap aparezcan arriba y sobre lo demas*/
+.alerts {
+    position: relative;
+
+}
